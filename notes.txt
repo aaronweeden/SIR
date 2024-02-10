@@ -1,0 +1,196 @@
+Some programming tools
+======================
+* Problem to solve
+* Computer
+  * Processor
+  * Memory
+  * Input devices (e.g., keyboard, mouse, 
+    touchscreen, microphone)
+  * Output devices (e.g., screen, speakers,
+    printers)
+* Programming language
+* Text editor (e.g., Visual Studio Code,
+  Sublime Text, Atom, Notepad++, BBEdit,
+  vi, emacs, nano)
+* Runtime environment (e.g., web browser,
+  app, command-line interpreter, etc.)
+* Documentation (e.g., websites, books,
+  courses, classmates, instructors, 
+  colleagues, StackOverflow.com, etc.)
+* Notebook (e.g., pen and paper, text 
+  file, Microsoft Word document, Google 
+  Doc, etc.)
+* Other helpful software (e.g., debugger,
+  web inspector, linter, 
+  comparison/difference checker, etc.)
+
+Some programming activities
+===========================
+* Reading code
+* Planning
+* Writing documentation
+* Writing code
+* Testing
+* Debugging
+* Refactoring
+* Version control
+
+Programming language
+====================
+* Understood by humans and computers
+* Has syntax (the arrangements of symbols
+  to create meaningful statements)
+  and semantics (the meaning behind the
+  symbols and statements)
+* Examples: Python, Java, JavaScript, C++, 
+  C#, C, Go, R, PHP, Swift, etc.
+
+JavaScript
+==========
+* Programming language used in websites
+* Interpreter is usually a web browser
+* Statements given to the interpreter 
+  separated by semicolons (;) or new lines
+  (this is typical of many programming 
+  languages)
+
+Some programming concepts
+=========================
+* Comments
+* Values
+* Variables
+* Expressions
+* Conditional statements (e.g., if/then/else)
+* Functions (a.k.a. methods, subroutines)
+* Loops (e.g., for, while)
+* Libraries
+
+Comments
+========
+* Ignored by the interpreter
+* JavaScript syntax: start with two slashes 
+  (//), and the interpreter will ignore
+  the rest of the line
+* Typically used to document the code 
+  (explain how it works) to the human 
+  reading it or to temporarily hide some 
+  parts of the code from the interpreter
+
+Values
+======
+* Data that can be processed by the 
+  computer and/or stored in its memory
+* Have different types depending on the
+  language, e.g., for JavaScript,
+  * Numbers, e.g., 2, -1, 1.5, 1e6
+  * Strings, e.g., "hello"
+  * Booleans, e.g., true, false
+  * Objects, which have string properties
+    that each have a value, e.g.,
+    animal.genus, animal.species,
+    atom.mass, atom.numElectrons, 
+    lightSwitch.isOn
+
+Variables
+=========
+* A name associated with a value that is
+  stored in memory
+* The value can (usually) be changed later, 
+  except:
+  * Constants: given a value once and not
+    changed again (during the given run of 
+    the program)
+* The value can be fetched from memory
+  and used in expressions
+
+Expressions
+===========
+* Describe operations that can be performed 
+  by the computer on data
+* Involve one or more operators
+* Examples:
+  * Arithmetic expressions, e.g.,
+    addition (+), subtraction (-), 
+    multiplication (*), division (/),
+    modulus (%)
+  * Boolean expressions, e.g.,
+    equal to (==), less than (<), greater 
+    than (>), less than or equal to (<=),
+    greater than or equal to (>=), not equal
+    to (!=), and (&&), or (||), not (!)
+  * Variable assignment expressions (=)
+* Can often be grouped with parentheses, 
+  e.g., (2+3)*6
+
+Variable expressions
+====================
+* Declaration (creating a variable)
+  * JavaScript syntax:
+    var name;
+    * Replace "name" with the name of
+      the variable
+* Assignment (giving the variable a value)
+  * JavaScript syntax:
+    name = 2;
+    * Replace 2 with the value of the 
+      variable
+    * Can be combined with declaration in
+      a single statement, e.g.,
+      var name = 2;
+    * If the variable should be a constant 
+      (not changed later), JavaScript also 
+      has:
+      const name = 2;
+    * Variables that are meant to be used in
+      a particular code block can instead be 
+      declared as:
+      let name = 2;
+
+Conditional statements
+======================
+* Allow the computer to make decisions.
+* The interpreter only runs certain code if a 
+  certain condition is true.
+* The condition usually involves comparing
+  two values, e.g., seeing if they are equal,
+  if one is greater, if one is less, etc.
+* The condition is thus a Boolean type (true 
+  or false).
+* The most common type of conditional 
+  statement is the if/then/else statement:
+  IF a condition is true, THEN the 
+  interpreter runs some code, ELSE
+  (otherwise) the interpreter runs some other 
+  code.
+
+JavaScript objects
+==================
+* Used to group related data
+* Curly braces ({ and }) can be used to
+  create an object
+* Property names and values go in between
+  the curly braces, separated by commas (,)
+* The property name and its value are 
+  separated by a colon (:)
+* A property's value can be fetched using 
+  the dot (.) operator, e.g. person.name
+* null is a special value that represents
+  the absence of an object
+* Objects can be "frozen," which means their
+  properties must stay constant
+
+Functions
+=========
+* Blocks of code that operate like mini-
+  programs
+* Given a name
+* Can be reused multiple times by "calling"
+  the function
+* Used to organize code and avoid repetition
+* Can have zero or more input values and
+  zero or one output values
+
+Loops
+=====
+* Used to repeat instructions without having
+  to re-type or copy/paste

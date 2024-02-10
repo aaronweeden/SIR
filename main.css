@@ -1,0 +1,25 @@
+#graph-container,
+#world {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#graph-container {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+.key {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+#world {
+  border: 1px solid black;
+}
+
+#world-and-graph {
+  white-space: nowrap;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SIR Model</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="initialize();">
+    <div id="world-and-graph">
+      <canvas id="world"></canvas>
+      <div id="graph-container">
+        <canvas id="graph" width="500" height="500"></canvas>
+      </div>
+    </div>
+    <div>
+      <button id="start-stop-button" onclick="startOrStop();">Start</button>
+      <button id="step-button" onclick="step();">Step</button>
+      <button onclick="reset();">Reset</button>
+    </div>
+    <div>
+      Time steps elapsed: <span id="num-time-steps"></span>
+    </div>
+    <div>
+      <span id="susceptible-key" class="key"></span>
+      Susceptible: <span id="num-susceptible"></span>
+    </div>
+    <div>
+      <span id="infected-key" class="key"></span>
+      Infected: <span id="num-infected"></span>
+    </div>
+    <div>
+      <span id="recovered-key" class="key"></span>
+      Recovered: <span id="num-recovered"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="graph.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
